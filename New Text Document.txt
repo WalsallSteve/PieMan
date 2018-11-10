@@ -1,0 +1,106 @@
+
+/*
+            var map = new game_mapper();
+            var game = new game_engine();
+
+             game.window_create(1024, 1024, 0);
+*/
+
+/*
+        var map_key = new Array('.', '-', '¦', '+', '+', '+', '+', '¦', '-', '+', '+', '+', '+', 'p');
+        var map_data = "+--------------------------+" +
+                        "¦............¦¦............¦" +
+                        "¦.+--+.+---+.¦¦.+---+.+--+.¦" +
+                        "¦p¦  ¦.¦   ¦.¦¦.¦   ¦.¦  ¦p¦" +
+                        "¦.+--+.+---+.++.+---+.+--+.¦" +
+                        "¦..........................¦" +
+                        "¦.+--+.++.+------+.++.+--+.¦" +
+                        "¦.+--+.¦¦.+--++--+.¦¦.+--+.¦" +
+                        "¦......¦¦....¦¦....¦¦......¦" +
+                        "+----+.¦+--+ ++ +--+¦.+----+" +
+                        "     ¦.¦+--+    +--+¦.¦     " +
+                        "     ¦.¦¦    ..    ¦¦.¦     " +
+                        "     ¦.¦¦ +--  --+ ¦¦.¦     " +
+                        "-----+.++ ¦  G   ¦ ++.+-----" +
+                        "     ¦.   ¦      ¦   .¦     " +
+                        "-----+.++ +------+ ++.+-----" +
+                        "     ¦.¦¦          ¦¦.¦     " +
+                        "     ¦.¦¦ +------+ ¦¦.¦     " +
+                        "+----+.++ +--++--+ ++.+----+" +
+                        "¦............¦¦............¦" +
+                        "¦.+--+.+---+.¦¦.+---+.+--+.¦" +
+                        "¦p+-+¦.+---+.++.+---+.¦+-+p¦" +
+                        "¦...¦¦....... M.......¦¦...¦" +
+                        "¦-+.¦¦.++.+------+.++.¦¦.+-¦" +
+                        "¦-+.++.¦¦.+--++--+.¦¦.++.+-¦" +
+                        "¦......¦¦....¦¦....¦¦......¦" +
+                        "¦.+----++--+.¦¦.+--++----+.¦" +
+                        "¦.+--------+.++.+--------+.¦" +
+                        "¦..........................¦" +
+                        "+--------------------------+";
+
+/*
+        map.set_map_key(map_key);                        
+        map.set_map_data(map_data, 28,30);      // Set the map data - 28 tiles X 30 tiles
+
+         var promise = new Array(
+            map.load_map_image('images/map.png', 500, 200, 24, 24)
+            //this.data.pman.load_sprite_image('images/pman.png', 10,10),
+            //this.data.ghosts[0].load_sprite_image('images/ghost_red.png', 34, 34)
+        )
+
+        Promise.all(promise)
+        .then(function(){
+            
+            
+
+            game.draw(map);
+
+            game.set_text_color('#ffffff');
+            game.set_text_font('40pt serif');
+            game.text_write('Hello', 100, 100);
+
+        },function(error){           
+           console.log(error);
+        });
+
+            
+            game = new game_engine();
+            game.window_create(1024, 1024, 0); 
+
+            //ghost = new game_sprite();            
+            map = new game_mapper();
+            
+
+            var promise = new Array(
+                //ghost.load_sprite_image('images/ghost_red.png', 140, 112, 34, 34),
+                map.load_map_image("images/map.png", 337, 394, 24, 24)
+            );
+
+            Promise.all(promise)
+            .then(function(done){
+                
+                map.set_map_data(map_data, 28,30);
+                map.draw(game.context);
+                //game.draw(map);
+               // ghost.set_position(14*24, 11 * 24);
+               // game.draw(ghost);
+
+                game.set_text_color('#ffffff');
+                map.draw_grid(game.context, 24, 24);
+
+            });
+
+   */         
+                                    
+            
+
+/*
+            async function sleep() {
+                console.log('start');
+                await ge.sleeping(5000);
+                console.log('end');
+            }
+            
+            sleep();
+  */        
