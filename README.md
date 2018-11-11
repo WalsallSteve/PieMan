@@ -6,9 +6,11 @@ I decided to have a little look at the new ES6 classes that evergreen browsers s
 
 I guess I used it as a bit of a learning platform – playing with both ES6 classes and graphic in a web browser.
 
-Is this written in the best way possible – hell no....   
+Is this written in the best way possible... hell no
 
-Could the way I have done something be better – sure.
+Could the way I have done something be better... sure.
+
+Are their bugs in it... yes
 
 In the future I think I may change this to use typescript and make the classes compatible with IE? 
 
