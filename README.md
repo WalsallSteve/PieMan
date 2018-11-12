@@ -14,4 +14,6 @@ Are their bugs in it... yes
 
 In the future I think I may change this to use typescript and make the classes compatible with IE? 
 
+Also the main game logic should be de-coupled from the video refresh.
+
 Anyhoo enjoy.
