@@ -16,4 +16,6 @@ In the future I think I may change this to use typescript and make the classes c
 
 Also the main game logic should be de-coupled from the video refresh.
 
+Also I'm not sure what licence this should be under.  I doubt it can be used for commercial purposes due to legal issues?
+
 Anyhoo enjoy.
