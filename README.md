@@ -2,6 +2,8 @@
 
 PieMan started out as a bit of fun to keep the work team occupied with the Christmas slowdown.  
 
+NOTE: Newer browser seem to stop this loading due to cors. Either disable cors on a local-machine or run it through a webserver.
+
 I decided to have a little look at the new ES6 classes that evergreen browsers such as FireFox and Chrome (not IE, probably not Edge either) introduced and support natively.  
 
 I guess I used it as a bit of a learning platform – playing with both ES6 classes and graphic in a web browser.
